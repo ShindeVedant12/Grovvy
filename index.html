@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Platform</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css" integrity="sha512-OQDNdI5rpnZ0BRhhJc+btbbtnxaj+LdQFeh0V9/igiEPDiWE2fG+ZsXl0JEH+bjXKPJ3zcXqNyP4/F/NegVdZg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+    <div class="sidenav">
+    <div class="logo">
+        <button class="menu-btn" id="menu-close">
+            <i class='bx bx-log-out-circle'></i>
+        </button>
+        <i class='bx bx-pulse'></i>
+        <a href="#">Grovvy</a>
+    </div>
+
+    <aside class="sidebar">
+        
+        <div class="menu">
+            
+            <ul>
+                <li>
+                    <i class='bx bxs-bolt-circle active' ></i>
+                    <a href="#">Explore</a>
+                </li>
+                <li>
+                    <i class='bx bxs-volume-full'></i>
+                    <a href="#">Genres</a>
+                </li>
+                <li>
+                    <i class='bx bxs-album'></i>
+                    <a href="#">Albums</a>
+                </li>
+                <li>
+                    <i class='bx bxs-microphone'></i>
+                    <a href="#">Artists</a>
+                </li>
+                
+            </ul>
+        </div>
+
+        <!-- <div class="menu">
+            <h5>Library</h5>
+            <ul>
+                <li>
+                    <i class='bx bx-undo'></i>
+                    <a href="#">Recent</a>
+                </li>
+                <li>
+                    <i class='bx bxs-photo-album'></i>
+                    <a href="#">Albums</a>
+                </li>
+                <li>
+                    <i class='bx bxs-heart'></i>
+                    <a href="#">Favourites</a>
+                </li>
+                <li>
+                    <i class='bx bxs-folder'></i>
+                    <a href="#">Local</a>
+                </li>
+
+            </ul>
+        </div> -->
+
+        <!-- <div class="playing">
+            <div class="top">
+                <img src="profile.jpg">
+                
+            </div> -->
+            <div class="bottom">
+                <i class="ri-logout-box-line"></i>
+            </div>
+
+
+    </aside>
+</div>
+
+    <main class="main">
+        <div class="nav">
+            <div class="search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" placeholder="Search for songs, artists,etc">
+            </div>
+        </div>
+
+        <div class="display">
+            <div class="top">
+                <img src="display.jpg" alt="">
+            </div>
+            <div class="info">
+                <h5>Artist of the month</h5>
+                <h1>Camila Cabello</h1>
+                <h3>Havana</h3>
+                <div class="btn2">
+                    <button class="b1">View Playlist</button>
+                    <button class="b2">Follow</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="album">
+            <div class="head">
+                <span>Album of the week</span>
+            </div>
+            <div class="body">
+                <div class="box">
+                    <img src="dua lipa.jpg" alt="">
+                    <div class="info">
+                        <h4>Dua lipa</h4>
+                        <h5>Radical Optimism</h5>
+                    </div>
+                </div>
+                    <div class="box">
+                        <img src="drake.jpg" alt="">
+                        <div class="info">
+                            <h4>Drake</h4>
+                            <h5>Scorpion</h5>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="dil.jpeg" alt="">
+                        <div class="info">
+                            <h4>Diljit Dosanjh</h4>
+                            <h5>Moonchild Era</h5>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="Harry_Styles_-_Fine_Line.png" alt="">
+                        <div class="info">
+                            <h4>Harry Styles</h4>
+                            <h5>Fine Line</h5>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="ed.jpg" alt="">
+                        <div class="info">
+                            <h4>Ed shreeran</h4>
+                            <h5>÷ (Deluxe)</h5>
+                        </div>
+                    </div>
+                    <div class="more">
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </div>
+            </div>
+
+          <div class="track">
+            <div class="heading">
+                <span>Top Tracks</span>
+                <a>see all</a>
+            </div>
+            <div class="track-name">
+                <div class="line">
+                    <h4>01</h4>
+                    <img src="blind.png" alt="">
+                    <h5>Blinding Lights</h5>
+                    <h5 class="h5">The Weekend</h5>
+                    <i class="fa-solid fa-clock"></i>
+                    <h5>03:24</h5>
+                    <i class="fa-solid fa-headphones-simple"></i>
+                    <h5>84k</h5>
+                    <i class="fa-regular fa-circle-play"></i>
+                </div>
+                <div class="line">
+                    <h4>02</h4>
+                    <img class="savage" src="savage.png" alt="">
+                    <h5 class="">Savage Love</h5>
+                    <h5 class="h53">Jason Derulo</h5>
+                    <i class="fa-solid fa-clock"></i>
+                    <h5>02:51</h5>
+                    <i class="fa-solid fa-headphones-simple"></i>
+                    <h5>54k</h5>
+                    <i class="fa-regular fa-circle-play"></i>
+                </div>
+                <div class="line">
+                    <h4>03</h4>
+                    <img src="lover.jpeg" alt="">
+                    <h5>Lover</h5>
+                    <h5 class="h52">Diljit Dosanjh</h5>
+                    <i class="fa-solid fa-clock"></i>
+                    <h5>03:24</h5>
+                    <i class="fa-solid fa-headphones-simple"></i>
+                    <h5>42k</h5>
+                    <i class="fa-regular fa-circle-play"></i>
+                </div>
+            </div>    
+          </div>  
+    </main>
+    <section>
+        <div class="nav2">
+            <div class="rem">
+                <i class="ri-notification-2-fill"></i>
+                <i class="fa-solid fa-gear"></i>
+            </div>
+            <div class="btn">
+                <button>Upgrade Plan</button>
+            </div>
+        </div>
+        <div class="artist">
+            <div class="head">
+                <span>Artist of the month</span>
+                <a>see all</a>
+            </div>
+            <div class="infor">
+                <h4>01</h4>
+                <img class="post"  src="Eminem.jpg" alt="">
+                <div class="emi">
+                    <h4>Eminem</h4>
+                    <h6>3 Albums</h6>
+                </div>
+                <p>+2</p>
+            </div>
+            <div class="infor">
+                <h4>02</h4>
+                <img class="post" src="post malone.jpg" alt="">
+                <div class="post2">
+                    <h4>Post Malone</h4>
+                    <h6 >1 Album</h6>
+                </div>
+                <div class="h6">
+                    <p>+1</p>
+                </div>
+            </div>
+            <div class="infor">
+                <h4>03</h4>
+                <img class="post" src="travis.jpeg" alt="">
+                <div>
+                    <h4>Travis Scott</h4>
+                    <h6>2 Albums</h6>
+                </div>
+                <a>-1</a>
+            </div>
+            <div class="infor">
+                <h4>04</h4>
+                <img class="post" src="bruno.jpeg" alt="">
+                <div>
+                    <h4>Bruno Mars</h4>
+                    <h6>4 Albums</h6>
+                </div>
+                <a>-2</a>
+            </div>
+        </div>
+            <div class="music-player">
+                <div class="top-section">
+                    <div class="header">
+                        <h5>Player</h5>
+                        <i class='bx bxs-playlist'></i>
+                    </div>
+                    <div class="song-info">
+                        <img src="music.jpg">
+                        <div class="description">
+                            <h2>One of the Girls</h2>
+                            <h5>The Weekend</h5>
+                            <p>Best of 2024</p>
+                        </div>
+                        <div class="progress">
+                            <p>02:45</p>
+                            <div class="active-line"></div>
+                            <div class="deactive-line"></div>
+                            <p>01:02</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="player-actions">
+                    <div class="buttons">
+                        <i class='bx bx-repeat'></i>
+                        <i class='bx bx-first-page'></i>
+                        <i class='bx bxs-right-arrow play-button'></i>
+                        <i class='bx bx-last-page'></i>
+                        <i class='bx bx-transfer-alt'></i>
+                    </div>
+                    <div class="lyrics">
+                        <i class='bx bx-chevron-up'></i>
+                        <h5>LYRICS</h5>
+                    </div>
+                </div>
+
+            </div>
+</section>
+
+</body>
+</html>
